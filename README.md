@@ -42,4 +42,9 @@ When a zero-day payload bypasses Layer 1 & 2, the engine automatically queues th
 > `[+] Triggered Rule: WARNING: zero_day_queued_for_sandbox`
 > `[+] Threat Score: 0.850 (CRITICAL)`
 
+## 🗺️ Future Roadmap (Under Development)
+- [x] Core Heuristics and ML Engine integration.
+- [x] External Sandbox API fault tolerance (Graceful Degradation).
+- [ ] **Command & Control (C2):** Real-time Telegram Bot integration for instant SOC alerts.
+- [ ] **Audit Logging:** SQLite/PostgreSQL database implementation for historical threat analysis.
 *Developed by a dedicated Security Researcher aiming to bridge the gap between static analysis and dynamic behavioral response.*
